@@ -19,17 +19,19 @@ This is a furniture webshop that is built using various technologies, including 
 To get started with the aeki-webshop, follow these steps:
 
 1. Clone the repository using the following command:
-bash`
+```bash
 git clone https://github.com/<your-username>/aeki-webshop.git
-`
+```
 2. Open the solution in Visual Studio.
 3. Build the solution to restore the required NuGet packages.
 4. Run the database migrations using the following command:
-bash`
-dotnet ef database update`
+```bash
+dotnet ef database update
+```
 5. Run the application using the following command:
-bash`
-dotnet run`
+```bash
+dotnet run
+```
 
 ## License
 The aeki-webshop project is licensed under the MIT License. See the LICENSE file for more information.
