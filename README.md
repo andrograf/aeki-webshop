@@ -1,14 +1,14 @@
 # aeki-webshop
 
-This is a furniture webshop that is built using various technologies, including AspNet Core, Entity Framework, AspNet Identity, Sessions, and SqlServer.
+This is a furniture webshop that is built using various technologies, including Asp.Net Core, Entity Framework, Asp.Net Identity, Sessions, and SqlServer.
 
 ## Technologies Used
 
-- AspNet Core: AspNet Core is an open-source and cross-platform framework for building modern web applications. It provides a unified programming model for building web applications using different frameworks such as MVC, Web API, and SignalR.
+- Asp.Net Core: Asp.Net Core is an open-source and cross-platform framework for building modern web applications. It provides a unified programming model for building web applications using different frameworks such as MVC, Web API, and SignalR.
 
 - Entity Framework: Entity Framework is a popular Object-Relational Mapping (ORM) framework that simplifies the interaction between a database and a .NET application. It allows developers to work with relational data using domain-specific objects.
 
-- AspNet Identity: AspNet Identity is a membership system that provides an easy way to manage user authentication and authorization. It is built on top of the ASP.NET Identity framework and provides features such as login, logout, registration, and password reset.
+- Asp.Net Identity: Asp.Net Identity is a membership system that provides an easy way to manage user authentication and authorization. It is built on top of the ASP.NET Identity framework and provides features such as login, logout, registration, and password reset.
 
 - Sessions: Sessions are a way to store user data on the server-side. It allows developers to store information that can be accessed across multiple requests. In the case of a webshop, sessions can be used to store information about a user's shopping cart or preferences.
 
@@ -20,7 +20,7 @@ To get started with the aeki-webshop, follow these steps:
 
 1. Clone the repository using the following command:
 ```bash
-git clone https://github.com/<your-username>/aeki-webshop.git
+git clone https://github.com/andrograf/aeki-webshop.git
 ```
 2. Open the solution in Visual Studio.
 3. Build the solution to restore the required NuGet packages.
