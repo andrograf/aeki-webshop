@@ -1,6 +1,6 @@
-# aeki-webshop
+# Aeki Webshop
 
-This is a furniture webshop that is built using various technologies, including Asp.Net Core, Entity Framework, Asp.Net Identity, Sessions, and SqlServer.
+This web application is designed to provide a seamless and enjoyable shopping experience for all furniture enthusiasts. The website has been meticulously crafted using a combination of robust technologies, ensuring a secure, efficient, and user-friendly platform.
 
 ## Technologies Used
 
@@ -13,6 +13,9 @@ This is a furniture webshop that is built using various technologies, including 
 - Sessions: Sessions are a way to store user data on the server-side. It allows developers to store information that can be accessed across multiple requests. In the case of a webshop, sessions can be used to store information about a user's shopping cart or preferences.
 
 - SqlServer: SqlServer is a relational database management system (RDBMS) developed by Microsoft. It is widely used in enterprise applications due to its robustness, scalability, and security features.
+
+## Screenshots
+![Aeki Webshop Screenshot](aeki.png)
 
 ## Getting Started
 
@@ -34,4 +37,4 @@ dotnet run
 ```
 
 ## License
-The aeki-webshop project is licensed under the MIT License. See the LICENSE file for more information.
+The Aeki Webshop project is licensed under the MIT License. See the LICENSE file for more information.
