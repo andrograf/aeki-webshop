@@ -1,10 +1,16 @@
-﻿DROP TABLE IF EXISTS Products;
-DROP TABLE IF EXISTS ProductCategory;
-DROP TABLE IF EXISTS Supplier;
-DROP TABLE IF EXISTS OrderHistory;
-DROP TABLE IF EXISTS OrderHistoryItemList;
-
-
+﻿IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'CodeCoolShop')
+  BEGIN
+    CREATE DATABASE CodeCoolShop
+  END
+  GO
+	USE CodeCoolShop;
+  GO
+	DROP TABLE IF EXISTS Products;
+	DROP TABLE IF EXISTS ProductCategory;
+	DROP TABLE IF EXISTS Supplier;
+	DROP TABLE IF EXISTS OrderHistory;
+	DROP TABLE IF EXISTS OrderHistoryItemList;
+  GO
 
 CREATE TABLE Products
 (
@@ -92,3 +98,4 @@ SELECT * FROM Products;
 SELECT * FROM Supplier;
 SELECT * FROM OrderHistory;
 SELECT * FROM OrderHistoryItemList;
+

@@ -57,10 +57,12 @@ namespace Codecool.CodecoolShop.Controllers
             }
             catch 
             {
-                throw new System.Exception();
+                //throw new System.Exception();
+                Console.WriteLine(Console.Error);
             }
-            
-            
+            finally
+            {
+
             string sSub = $"Order comfirmation";
             var OrderName = checkForm.OrderName;
             var OrderEmail = checkForm.OrderEmail;
@@ -70,7 +72,9 @@ namespace Codecool.CodecoolShop.Controllers
             //// form-ból onclick-re kell meghívódnia
 
             MailSystem.MailSystem.SendEmail(OrderName, OrderEmail, sSub, sMessage, "AEKI automatic email",true);
+            }
             return RedirectToAction("ThanksYourOrder","Home");
+            
         }
     }
 }
